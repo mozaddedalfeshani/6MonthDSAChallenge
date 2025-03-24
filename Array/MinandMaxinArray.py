@@ -1,19 +1,5 @@
-#Min and Max in Array
-class Solution:
-    def get_min_max(self, arr):
-        maxNumber =0
-        minNumber=0 
-        for item in arr:
-            if(item>max):
-                max = item
-            if(item<min):
-                min = item
+box= [100,2,3,4,5,6,7,8,9]
 
-        return maxNumber , minNumber
-    
-
-anObject= Solution
-a , b= anObject.get_min_max([1,35,23,123,4342])
-
-print(a,b)
+box.sort()
+print(box)
 
